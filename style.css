@@ -13,17 +13,20 @@ body {
     padding: 10px;
     box-sizing: border-box;
     margin-top: 10%;
-    background-color: #FFF;
-    box-shadow: 0 0 5px #FFF;
+    background-color: #232528;
+    box-shadow: 0 0 5px #232528;
     text-align: center;
+    border-radius: 5px;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20px;
+    color: #fff;
 }
 
 button {
+    margin: 0 2px;
     padding: 10px;
     border: none;
     outline: none;
@@ -31,25 +34,29 @@ button {
     font-size: 1.1em;
     transition: all .5s;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 button:hover {
-    background-color: #a1c0d1;
+    background-color: #eae4e9;
 }
 
 button:active {
-    background-color: #111;
+    background-color: #232528;
+    
 }
 
 .bg-green {
-    background-color: #b2d1a1;
+    background-color: #118ab2;
+    
 }
 
 .bg-yellow {
-    background-color: #d1cba1;
+    background-color: #ffd166;
+    
 }
 
 .bg-red {
-    background-color: #d1a1a1;
+    background-color: #ef476f;
+      
 }
