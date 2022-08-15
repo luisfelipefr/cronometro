@@ -5,12 +5,20 @@ var ss = 0;
 
 var time = 1000;
 var cron;
+var paused = false;
+
 function start() {
-    cron = setInterval(() => { timer(); }, time);
+    if(ss == 0 || paused == true) {
+        cron = setInterval(() => { timer(); }, time);        
+        paused = false;
+        return;
+    }
+    return false;
 }
 
 function pause() {
     clearInterval(cron);
+    paused = true;
 }
 
 function stop() {
